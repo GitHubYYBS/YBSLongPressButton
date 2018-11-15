@@ -1,0 +1,596 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		97A075E5219CFA8300E5FFBD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 97A075E4219CFA8300E5FFBD /* AppDelegate.m */; };
+		97A075E8219CFA8300E5FFBD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 97A075E7219CFA8300E5FFBD /* ViewController.m */; };
+		97A075EB219CFA8300E5FFBD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97A075E9219CFA8300E5FFBD /* Main.storyboard */; };
+		97A075ED219CFA8400E5FFBD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97A075EC219CFA8400E5FFBD /* Assets.xcassets */; };
+		97A075F0219CFA8400E5FFBD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97A075EE219CFA8400E5FFBD /* LaunchScreen.storyboard */; };
+		97A075F3219CFA8400E5FFBD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 97A075F2219CFA8400E5FFBD /* main.m */; };
+		97A075FD219CFA8500E5FFBD /* YBSLongPressButtonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 97A075FC219CFA8500E5FFBD /* YBSLongPressButtonTests.m */; };
+		97A07608219CFA8500E5FFBD /* YBSLongPressButtonUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 97A07607219CFA8500E5FFBD /* YBSLongPressButtonUITests.m */; };
+		97A0761C219CFC6400E5FFBD /* YBSLongPressButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 97A0761B219CFC6400E5FFBD /* YBSLongPressButton.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		97A075F9219CFA8500E5FFBD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 97A075D8219CFA8300E5FFBD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 97A075DF219CFA8300E5FFBD;
+			remoteInfo = YBSLongPressButton;
+		};
+		97A07604219CFA8500E5FFBD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 97A075D8219CFA8300E5FFBD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 97A075DF219CFA8300E5FFBD;
+			remoteInfo = YBSLongPressButton;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		97A075E0219CFA8300E5FFBD /* YBSLongPressButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YBSLongPressButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		97A075E3219CFA8300E5FFBD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		97A075E4219CFA8300E5FFBD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		97A075E6219CFA8300E5FFBD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		97A075E7219CFA8300E5FFBD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		97A075EA219CFA8300E5FFBD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		97A075EC219CFA8400E5FFBD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		97A075EF219CFA8400E5FFBD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		97A075F1219CFA8400E5FFBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		97A075F2219CFA8400E5FFBD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		97A075F8219CFA8500E5FFBD /* YBSLongPressButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YBSLongPressButtonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		97A075FC219CFA8500E5FFBD /* YBSLongPressButtonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YBSLongPressButtonTests.m; sourceTree = "<group>"; };
+		97A075FE219CFA8500E5FFBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		97A07603219CFA8500E5FFBD /* YBSLongPressButtonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YBSLongPressButtonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		97A07607219CFA8500E5FFBD /* YBSLongPressButtonUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YBSLongPressButtonUITests.m; sourceTree = "<group>"; };
+		97A07609219CFA8500E5FFBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		97A0761A219CFC6400E5FFBD /* YBSLongPressButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YBSLongPressButton.h; sourceTree = "<group>"; };
+		97A0761B219CFC6400E5FFBD /* YBSLongPressButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YBSLongPressButton.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		97A075DD219CFA8300E5FFBD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97A075F5219CFA8500E5FFBD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97A07600219CFA8500E5FFBD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		97A075D7219CFA8300E5FFBD = {
+			isa = PBXGroup;
+			children = (
+				97A075E2219CFA8300E5FFBD /* YBSLongPressButton */,
+				97A075FB219CFA8500E5FFBD /* YBSLongPressButtonTests */,
+				97A07606219CFA8500E5FFBD /* YBSLongPressButtonUITests */,
+				97A075E1219CFA8300E5FFBD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		97A075E1219CFA8300E5FFBD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				97A075E0219CFA8300E5FFBD /* YBSLongPressButton.app */,
+				97A075F8219CFA8500E5FFBD /* YBSLongPressButtonTests.xctest */,
+				97A07603219CFA8500E5FFBD /* YBSLongPressButtonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		97A075E2219CFA8300E5FFBD /* YBSLongPressButton */ = {
+			isa = PBXGroup;
+			children = (
+				97A07619219CFC6400E5FFBD /* YBSLongPressButton */,
+				97A075E3219CFA8300E5FFBD /* AppDelegate.h */,
+				97A075E4219CFA8300E5FFBD /* AppDelegate.m */,
+				97A075E6219CFA8300E5FFBD /* ViewController.h */,
+				97A075E7219CFA8300E5FFBD /* ViewController.m */,
+				97A075E9219CFA8300E5FFBD /* Main.storyboard */,
+				97A075EC219CFA8400E5FFBD /* Assets.xcassets */,
+				97A075EE219CFA8400E5FFBD /* LaunchScreen.storyboard */,
+				97A075F1219CFA8400E5FFBD /* Info.plist */,
+				97A075F2219CFA8400E5FFBD /* main.m */,
+			);
+			path = YBSLongPressButton;
+			sourceTree = "<group>";
+		};
+		97A075FB219CFA8500E5FFBD /* YBSLongPressButtonTests */ = {
+			isa = PBXGroup;
+			children = (
+				97A075FC219CFA8500E5FFBD /* YBSLongPressButtonTests.m */,
+				97A075FE219CFA8500E5FFBD /* Info.plist */,
+			);
+			path = YBSLongPressButtonTests;
+			sourceTree = "<group>";
+		};
+		97A07606219CFA8500E5FFBD /* YBSLongPressButtonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				97A07607219CFA8500E5FFBD /* YBSLongPressButtonUITests.m */,
+				97A07609219CFA8500E5FFBD /* Info.plist */,
+			);
+			path = YBSLongPressButtonUITests;
+			sourceTree = "<group>";
+		};
+		97A07619219CFC6400E5FFBD /* YBSLongPressButton */ = {
+			isa = PBXGroup;
+			children = (
+				97A0761A219CFC6400E5FFBD /* YBSLongPressButton.h */,
+				97A0761B219CFC6400E5FFBD /* YBSLongPressButton.m */,
+			);
+			path = YBSLongPressButton;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		97A075DF219CFA8300E5FFBD /* YBSLongPressButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 97A0760C219CFA8500E5FFBD /* Build configuration list for PBXNativeTarget "YBSLongPressButton" */;
+			buildPhases = (
+				97A075DC219CFA8300E5FFBD /* Sources */,
+				97A075DD219CFA8300E5FFBD /* Frameworks */,
+				97A075DE219CFA8300E5FFBD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YBSLongPressButton;
+			productName = YBSLongPressButton;
+			productReference = 97A075E0219CFA8300E5FFBD /* YBSLongPressButton.app */;
+			productType = "com.apple.product-type.application";
+		};
+		97A075F7219CFA8500E5FFBD /* YBSLongPressButtonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 97A0760F219CFA8500E5FFBD /* Build configuration list for PBXNativeTarget "YBSLongPressButtonTests" */;
+			buildPhases = (
+				97A075F4219CFA8500E5FFBD /* Sources */,
+				97A075F5219CFA8500E5FFBD /* Frameworks */,
+				97A075F6219CFA8500E5FFBD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				97A075FA219CFA8500E5FFBD /* PBXTargetDependency */,
+			);
+			name = YBSLongPressButtonTests;
+			productName = YBSLongPressButtonTests;
+			productReference = 97A075F8219CFA8500E5FFBD /* YBSLongPressButtonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		97A07602219CFA8500E5FFBD /* YBSLongPressButtonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 97A07612219CFA8500E5FFBD /* Build configuration list for PBXNativeTarget "YBSLongPressButtonUITests" */;
+			buildPhases = (
+				97A075FF219CFA8500E5FFBD /* Sources */,
+				97A07600219CFA8500E5FFBD /* Frameworks */,
+				97A07601219CFA8500E5FFBD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				97A07605219CFA8500E5FFBD /* PBXTargetDependency */,
+			);
+			name = YBSLongPressButtonUITests;
+			productName = YBSLongPressButtonUITests;
+			productReference = 97A07603219CFA8500E5FFBD /* YBSLongPressButtonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		97A075D8219CFA8300E5FFBD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "严兵胜";
+				TargetAttributes = {
+					97A075DF219CFA8300E5FFBD = {
+						CreatedOnToolsVersion = 9.3.1;
+					};
+					97A075F7219CFA8500E5FFBD = {
+						CreatedOnToolsVersion = 9.3.1;
+						TestTargetID = 97A075DF219CFA8300E5FFBD;
+					};
+					97A07602219CFA8500E5FFBD = {
+						CreatedOnToolsVersion = 9.3.1;
+						TestTargetID = 97A075DF219CFA8300E5FFBD;
+					};
+				};
+			};
+			buildConfigurationList = 97A075DB219CFA8300E5FFBD /* Build configuration list for PBXProject "YBSLongPressButton" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 97A075D7219CFA8300E5FFBD;
+			productRefGroup = 97A075E1219CFA8300E5FFBD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				97A075DF219CFA8300E5FFBD /* YBSLongPressButton */,
+				97A075F7219CFA8500E5FFBD /* YBSLongPressButtonTests */,
+				97A07602219CFA8500E5FFBD /* YBSLongPressButtonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		97A075DE219CFA8300E5FFBD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97A075F0219CFA8400E5FFBD /* LaunchScreen.storyboard in Resources */,
+				97A075ED219CFA8400E5FFBD /* Assets.xcassets in Resources */,
+				97A075EB219CFA8300E5FFBD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97A075F6219CFA8500E5FFBD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97A07601219CFA8500E5FFBD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		97A075DC219CFA8300E5FFBD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97A075E8219CFA8300E5FFBD /* ViewController.m in Sources */,
+				97A075F3219CFA8400E5FFBD /* main.m in Sources */,
+				97A0761C219CFC6400E5FFBD /* YBSLongPressButton.m in Sources */,
+				97A075E5219CFA8300E5FFBD /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97A075F4219CFA8500E5FFBD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97A075FD219CFA8500E5FFBD /* YBSLongPressButtonTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97A075FF219CFA8500E5FFBD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97A07608219CFA8500E5FFBD /* YBSLongPressButtonUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		97A075FA219CFA8500E5FFBD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 97A075DF219CFA8300E5FFBD /* YBSLongPressButton */;
+			targetProxy = 97A075F9219CFA8500E5FFBD /* PBXContainerItemProxy */;
+		};
+		97A07605219CFA8500E5FFBD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 97A075DF219CFA8300E5FFBD /* YBSLongPressButton */;
+			targetProxy = 97A07604219CFA8500E5FFBD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		97A075E9219CFA8300E5FFBD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				97A075EA219CFA8300E5FFBD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		97A075EE219CFA8400E5FFBD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				97A075EF219CFA8400E5FFBD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		97A0760A219CFA8500E5FFBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		97A0760B219CFA8500E5FFBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		97A0760D219CFA8500E5FFBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VJWDFTVLYS;
+				INFOPLIST_FILE = YBSLongPressButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = YBS.YBSLongPressButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		97A0760E219CFA8500E5FFBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VJWDFTVLYS;
+				INFOPLIST_FILE = YBSLongPressButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = YBS.YBSLongPressButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		97A07610219CFA8500E5FFBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VJWDFTVLYS;
+				INFOPLIST_FILE = YBSLongPressButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = YBS.YBSLongPressButtonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YBSLongPressButton.app/YBSLongPressButton";
+			};
+			name = Debug;
+		};
+		97A07611219CFA8500E5FFBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VJWDFTVLYS;
+				INFOPLIST_FILE = YBSLongPressButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = YBS.YBSLongPressButtonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YBSLongPressButton.app/YBSLongPressButton";
+			};
+			name = Release;
+		};
+		97A07613219CFA8500E5FFBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VJWDFTVLYS;
+				INFOPLIST_FILE = YBSLongPressButtonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = YBS.YBSLongPressButtonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YBSLongPressButton;
+			};
+			name = Debug;
+		};
+		97A07614219CFA8500E5FFBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VJWDFTVLYS;
+				INFOPLIST_FILE = YBSLongPressButtonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = YBS.YBSLongPressButtonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YBSLongPressButton;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		97A075DB219CFA8300E5FFBD /* Build configuration list for PBXProject "YBSLongPressButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97A0760A219CFA8500E5FFBD /* Debug */,
+				97A0760B219CFA8500E5FFBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		97A0760C219CFA8500E5FFBD /* Build configuration list for PBXNativeTarget "YBSLongPressButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97A0760D219CFA8500E5FFBD /* Debug */,
+				97A0760E219CFA8500E5FFBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		97A0760F219CFA8500E5FFBD /* Build configuration list for PBXNativeTarget "YBSLongPressButtonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97A07610219CFA8500E5FFBD /* Debug */,
+				97A07611219CFA8500E5FFBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		97A07612219CFA8500E5FFBD /* Build configuration list for PBXNativeTarget "YBSLongPressButtonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97A07613219CFA8500E5FFBD /* Debug */,
+				97A07614219CFA8500E5FFBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 97A075D8219CFA8300E5FFBD /* Project object */;
+}
